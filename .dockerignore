@@ -1,0 +1,23 @@
+.git
+.gitignore
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Variables de entorno (nunca se copian a la imagen)
+.env
+.env.*
+
+# Archivos que no son necesarios dentro del contenedor
+README.md
+*.md
+Dockerfile
+docker-compose.yml
+.dockerignore
+app/requirements-dev.txt
+app/tests
